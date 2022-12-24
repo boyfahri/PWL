@@ -1,0 +1,35 @@
+{% extends 'front/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="wrapper">
+    <div class="profile-content section">
+      <div class="container">
+        <div class="row">
+          <div class="profile-picture">
+            <div class="fileinput fileinput-new" data-provides="fileinput">
+                <br><br>
+              <div class="fileinput-new img-no-padding">
+                <img class="center" src="{% static 'front/img/faces/joe-tas-1.jpg' %}" alt="...">
+              </div>
+              <div class="name">
+                <h4 class="title text-center">Fachri Kurniawan<br /><small>Mahasiswa Teknik Informatika</small></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto text-center">
+            <p>nama saya Fachri Kurniawan Umur saya 21 Tahun, Suku Banjar, Saya sangat suka memancing dan cita cita saya ingin menjadi pengusaha di bidang IT,</p>
+            <br />
+           
+          </div>
+        </div>
+        <br />
+
+        <!-- Tab panes -->
+
+      </div>
+    </div>
+  </div>
+{% endblock content %}
